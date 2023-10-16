@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
               context.read<CounterProvider>().increment();
             },
             tooltip: 'Increment',
-            child: const Icon(Icons.add,size: 35),
+            child: const Icon(Icons.add, size: 35),
           ),
           const SizedBox(
             width: 50,
@@ -85,8 +85,8 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 context.read<CounterProvider>().decrement();
               },
-              tooltip: 'Decriment',
-              child: const Icon(Icons.remove,size: 35),
+              tooltip: 'Decrement',
+              child: const Icon(Icons.remove, size: 35),
             ),
           )
         ],
